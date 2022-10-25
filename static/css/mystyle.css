@@ -1,0 +1,125 @@
+.light-font {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+.postShorten-thumbnailimg img {
+    max-height: 400px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.fb-share-button {
+    position: relative;
+    top: -30px;
+}
+
+.display-card {
+    -webkit-box-shadow: 1px 1px 9px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 9px -3px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 9px -3px rgba(0,0,0,0.75);
+    background: #f2f2f2;
+    padding: 20px;
+    margin: 15px;
+}
+
+.category-title {
+    margin: 0 auto;
+    max-width: 750px;
+    font-size: 3em;
+    font-weight: 100;
+    border-bottom: solid 1px #ccc;
+}
+
+.category-subtitle {
+    font-size: 0.65em;
+    margin-left: 40px;
+}
+
+.experience-card .dates {
+    font-size: 0.55em;
+    margin-left: 10px;
+    opacity: 0.75;
+}
+
+.experience-card .description{
+    font-weight: 100;
+}
+
+.experience-card {
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+
+.skills span {
+
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    background: #8185b9;
+    color: white;
+    padding: 3px 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    min-width: 50px;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #a2a3a4;
+}
+
+.postShorten .postShorten-content, .postShorten .postShorten-excerpt {
+    color: #86959e;
+}
+
+.btn {
+
+    background:rgb(21 31 40);
+}
+
+
+.btn--small {
+    color: #349ef3;!important;
+    border: 1px solid #9eabb3;
+}
+
+/* Image gallery */
+#photo-gallery .image-cell img {
+    display: inline-block;
+    width: 230px;
+    height: 230px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+#header {
+    background:rgb(21 31 40);
+    border: 0px;
+}
+
+#header .header-title .header-title-link {
+    color: #a2a3a4;
+    font-weight: 1000;
+}
+
+#header .header-title {
+    font-size: 2rem;
+}
+
+#sidebar {
+    font-family: "Open Sans",sans-serif;
+    background:rgb(21 31 40);
+}
+
+#main{
+    background:#141418;
+}
+
+#about {
+    background:rgb(21 31 40);
+}
+
+
