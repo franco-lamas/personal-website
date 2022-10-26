@@ -1,15 +1,15 @@
 ---
 title: "¿Por Qué Hugo Framework?"
 date: 2022-10-25
+
 categories:
 - walkthrough
 - guides
+
 tags:
 - hugo
 - web-dessign
-- 
-- disqus
-- google analytics
+
 keywords:
 - disqus
 - google
