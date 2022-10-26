@@ -5,7 +5,7 @@ services:
     image: klakegg/hugo:0.101.0
     restart: unless-stopped
     container_name: hugo-server
-    command: server
+    command: server --baseURL https://docs.delian-home.tk -p 443 --disableFastRender
     volumes:
       - ".:/src"
       
