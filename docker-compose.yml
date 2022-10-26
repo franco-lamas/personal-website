@@ -8,5 +8,8 @@ services:
     command: server
     volumes:
       - ".:/src"
-    ports:
-      - 1313:1313
+      
+networks:
+  default:
+    name: ubuntu_default
+    external: true
