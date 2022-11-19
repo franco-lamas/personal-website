@@ -1,0 +1,64 @@
+---
+title: "Servicios personalizados en SystemD"
+date: 2022-11-11
+
+categories:
+- guides
+- tutorials
+
+tags:
+- systemd
+- sysadmin
+-
+
+keywords:
+- disqus
+- google
+- gravatar
+autoThumbnailImage: false
+thumbnailImagePosition: "top"
+thumbnailImage: //www.michaelbromley.co.uk/media/2017/07/hugo-logo.png
+
+metaAlignment: left
+---
+Servicios personalizados en SystemD.
+<!--more-->
+
+{{< toc >}}
+
+## Alpha/Beta versions
+
+
+Primero creamos un archivo con extension .service dentro dfe la carpeta /etc/systemd/system/ que contendrá nuestro servicio
+
+#command
+
+#/comand
+
+#code
+[Unit]
+Description=AMD GPU Fan
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=pc
+ExecStart=
+
+[Install]
+WantedBy=multi-user.target
+#/code
+
+DEspues recargamos el demonio de systemd con 
+
+sudo systemctl daemon-reload
+
+Luego  el cargamos el servicio en la sesion actual
+
+sudo systemctl start amd-gpu-fan
+
+Y lo habuilitamos para el inicio automatico con
+
+sudo systemctl enable amd-gpu-fan
